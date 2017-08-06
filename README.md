@@ -24,6 +24,8 @@ The user is engaged by providing the 'walls' that influence the algorithms' outp
 
 The code as it stands also provides easy addition of other algorithms such as Dijkstra's algorithm - arguably the most famous solution to solving the shortest path problem. 
 
+The largest issue was in rendering the individual stages of the algorithm. The algorithms are designed to be run once and output the solution of the shortest path. Visualizing the algorithm in accordance with the board rendering paradigm forced us to take a two pronged approach of using counters/queues and a virtual matrix to determine the intermediate steps of the algorithms and output the visualization of these intermediary positions. 
+
 ---
 
 Along with this completed readme, this repository should contain **the single file** or files needed for your submission. For example, if this submission is a _Math Square_ behavior, only submit the JavaScript or TypeScript file containing the behavior, not the entire source of the exhibit.
